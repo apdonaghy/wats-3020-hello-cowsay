@@ -13,3 +13,6 @@ if (textArg != null) {
     T: "U "
   }));
 }
+else {
+  console.log("add anything")
+}

@@ -7,6 +7,10 @@
      event.preventDefault();
      // ask the user for input text
      let message = document.getElementById('message');
-     displayOutput.innerHTML = "Moo, " + message.value;
+     if (message.value != null) {
+       console.log("user entered: " + message.value);
+      displayOutput.innerHTML = "Moo, " + message.value;
+     }
+     
    });
  });
